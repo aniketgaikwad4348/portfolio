@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<main id="mainBody">
+    <div class="menu-toggle" onclick="document.querySelector('#mainBody nav').classList.toggle('active')">
+    ☰</div>
+
+  <!-- Background Video -->
+  <video autoplay loop muted playsinline poster="assets/bg1.jpg" id="background-video">
+    <source src="assets/video.mp4" type="video/mp4" />
+    <source src="assets/video.webm" type="video/webm" />
+  </video>
+
+  <!-- Content Wrapper -->
+  <div class="content-wrapper">
+    <div class="nameBox" data-aos="fade-up">
+      <p>hi,</p>
+      <h1>I'm Aniket Gaikwad.</h1>
+      <p>A Software Developer</p>
+    </div>
+
+    <!-- Horizontal Navbar -->
+    <nav data-aos="fade-up">
+      <div class="nav-item">
+        <a href="#mainBody" title="Home"><i class="fa-solid fa-house"></i></a>
+      </div>
+      <div class="nav-item">
+        <a href="#about" title="About"><i class="fa-solid fa-user"></i></a>
+      </div>
+      <div class="nav-item">
+        <a href="#skills" title="Skills"><i class="fa-solid fa-laptop-code"></i></a>
+      </div>
+      <div class="nav-item">
+        <a href="#projects" title="Projects"><i class="fa-solid fa-diagram-project"></i></a>
+      </div>
+      <div class="nav-item">
+        <a href="#experience" title="Experience"><i class="fa-solid fa-briefcase"></i></a>
+      </div>
+      <div class="nav-item">
+        <a href="#contact" title="Contact"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </nav>
+  </div>
+</main>
+
+
+    <section class="aboutSection" id="about">
+  <main>
+    <!-- Profile image -->
+    <article data-aos="fade-right">
+      <img src="assets/IMG_20220517_212824_531.jpg" alt="Aniket Profile">
+    </article>
+
+    <!-- About + Qualifications + Soft Skills -->
+    <article data-aos="fade-left" class="aboutArticle">
+      <h1><ins>ABOUT</ins></h1>
+      <p>
+        I am a passionate <b>Full-Stack Developer</b> skilled in 
+        <b>Java, Python, and Flask</b>, with strong expertise in backend development 
+        and database management. My journey includes building a 
+        <b>Flask-based Retirement Planner</b> that boosted savings accuracy by 
+        <b>40% using Machine Learning</b>.  
+        I enjoy designing <b>scalable, high-performance applications</b> that 
+        maximize user engagement and business impact.
+      </p>
+
+      <!-- Nested About Section -->
+      <section class="about">
+        <!-- Qualification -->
+        <div class="qualification-box">
+          <h1>Qualification</h1>
+          <ul>
+            <li>
+              <span class="degree">B.E. (CSD)</span>
+              <span class="details">7.04 CGPA <br> DVVPCOE, Ahilyanagar (SPPU)</span>
+            </li>
+            <li>
+              <span class="degree">HSC</span>
+              <span class="details">85.50% <br> Maharashtra State Board</span>
+            </li>
+            <li>
+              <span class="degree">SSC</span>
+              <span class="details">88.40% <br> Maharashtra State Board</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skills-box">
+          <h1>Soft Skills</h1>
+          <ul>
+            <li>Communication</li>
+            <li>Leadership</li>
+            <li>Management</li>
+            <li>Teamwork</li>
+            <li>Smart Work</li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+</section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+            <main>
+                <h2 class="section-title">My Tech Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <i class="fab fa-html5 skill-icon"></i>
+                        <h3>HTML</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress html"></div>
+                        </div>
+                    </div>
+        
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt skill-icon"></i>
+                        <h3>CSS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress css"></div>
+                        </div>
+                    </div>
+        
+                    <div class="skill-card">
+                        <i class="fab fa-js-square skill-icon"></i>
+                        <h3>JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress js"></div>
+                        </div>
+                    </div>
+        
+                    <div class="skill-card">
+                        <i class="fab fa-python skill-icon"></i>
+                        <h3>Python</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress python"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fab fa-java skill-icon"></i>
+                        <h3>Java</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress java"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-react skill-icon"></i>
+                        <h3>React</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress react"></div>
+                        </div>
+                    </div>
+        
+                    <div class="skill-card">
+                        <i class="fas fa-database skill-icon"></i>
+                        <h3>SQL</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress sql"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fas fa-robot skill-icon"></i>
+
+                        <h3>AI & ML</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress aiml"></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+    </section>
+
+    <section class="projects" id="projects">
+        <main>
+            <h1>My Projects</h1>
+            <article>
+                <div>
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h1>Retirement Planner.AI</h1><a href="https://aniketgaikwad4348.pythonanywhere.com/">Live</a>
+                    <p>An AI-powered retirement planning web application that helps users estimate their future savings, investments, and financial growth based on income, savings, and investment preferences. It uses machine learning models to provide personalized investment recommendations for better financial planning.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h1>Detecting & Filtering Twitter Spam (NLP Android App)</h1>
+                    <p>An Android application that uses Natural Language Processing (NLP) to detect and filter spam tweets in real time. The app processes Twitter data, classifies messages using machine learning models, and alerts users about potential spam or fake content.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h1>E-Commerce Website</h1>
+                    <p>A full-stack e-commerce platform built using React, Node.js, and MongoDB. It features product listings, shopping cart functionality, secure payment integration, user authentication, and an admin dashboard for managing orders and inventory.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h1>Blog Theme</h1>
+                    <p>A modern, responsive blog theme designed using HTML, CSS, and JavaScript. It offers customizable layouts, SEO optimization, and a user-friendly interface, making it easy for bloggers to create and manage content effortlessly.</p>
+                </div>
+            </article>
+        </main>
+    </section>
+    
+    <!-- Experience Section -->
+<section class="experience" id="experience">
+    <div class="container">
+        <h1 class="section-title" data-aos="fade-up"></i> Experience</h1>
+        <div class="experience-container">
+            <!-- EY-GDS & AICTE Experience -->
+            <article class="exp-card" data-aos="fade-right">
+                <div class="exp-icon"><i class="fas fa-laptop-code"></i></div>
+                <div class="exp-content">
+                    <h2>EY-GDS & AICTE</h2>
+                    <p><strong><i class="fas fa-calendar-alt"></i> Duration:</strong> 1.5 months</p>
+                    <p><strong><i class="fas fa-user-tie"></i> Role:</strong> Full-Stack Development Intern</p>
+                    <p><strong><i class="fas fa-tools"></i> Tech Stack:</strong> Python, Django, HTML, CSS, JavaScript, Bootstrap, SQL</p>
+                    <p><strong><i class="fas fa-project-diagram"></i> Project:</strong> E-commerce Platform</p>
+                    <p class="description">
+                        Designed and developed a fully functional **e-commerce platform** with **user authentication, product management, payment integration, and an admin dashboard**. Implemented **secure backend APIs** using Django and enhanced UI/UX using Bootstrap.
+                    </p>
+                </div>
+            </article>
+
+            <!-- MotionCut Experience -->
+            <article class="exp-card" data-aos="fade-left">
+                <div class="exp-icon"><i class="fas fa-code"></i></div>
+                <div class="exp-content">
+                    <h2>MOTIONCUT</h2>
+                    <p><strong><i class="fas fa-calendar-alt"></i> Duration:</strong> 1 month</p>
+                    <p><strong><i class="fas fa-user-tie"></i> Role:</strong> Front-end Development Intern</p>
+                    <p><strong><i class="fas fa-tools"></i> Tech Stack:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+                    <p><strong><i class="fas fa-project-diagram"></i> Projects:</strong> Responsive Image Gallery, Blog Theme, Coffee Shop Website</p>
+                    <p class="description">
+                        Developed **modern, responsive UI components** for various websites, ensuring **cross-browser compatibility** and **optimized performance**. Designed a **dynamic image gallery** with smooth animations and interactive elements.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1 class="sub-title" data-aos="fade-up">Contact Me</h1>
+            <div class="contact-wrapper">
+                <div class="contact-left" data-aos="fade-right">
+                    <p><i class="fa-solid fa-envelope"></i>aniketgaikwad4348@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 7058804330</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/aniket-gaikwad-1b4bb5250/" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/AniketG_10" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/11k3YkumFK3jkJmivkIaBUqgrKwUHTuD9" class="btn btn-download">Download CV</a>
+                </div>
+
+                <div class="contact-right" data-aos="fade-left">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="copyright">
+            <p>Copyright © AG. Made with <i class="fa-solid fa-heart"></i> by AG Official</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
